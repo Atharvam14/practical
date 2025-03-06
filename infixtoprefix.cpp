@@ -8,7 +8,7 @@ using namespace std;
 class stack
 {
  public:
-  char stack_array[50];
+  char stack_array[60];
   int top;
   stack()
   {
