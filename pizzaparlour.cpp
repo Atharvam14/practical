@@ -4,7 +4,7 @@ const int MAX=5;
 
 class PizzaParlour
 {
-  int front,re;
+  int front,rear;
   int orders[MAX];
   public:
     PizzaParlour()
