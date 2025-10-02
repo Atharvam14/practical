@@ -4,7 +4,7 @@ while True:
     data = input("Enter the name and mobile number seperated by comma: ")
     if 'Exit' == data:
         break
-    name,num=data.split(",")
+    name,num=data.split(",,")
     num = int(num)
     dict1[num]=name
 print(dict1)
